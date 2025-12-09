@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boot-container
-          image: pis09/argocd-pipe:latest
+          image: pis09/argocd-pipe:4
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
